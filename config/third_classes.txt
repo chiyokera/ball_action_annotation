@@ -1,0 +1,17 @@
+Right center midfield
+Right bottom midfield
+Right top midfield
+Right bottom corner
+Right top corner
+Right bottom box
+Right edge of the box
+Right top box
+0
+Left center midfield
+Left bottom midfield
+Left top midfield
+Left bottom corner
+Left top corner
+Left bottom box
+Left edge of the box
+Left top box
