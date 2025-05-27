@@ -51,20 +51,22 @@ pip install PyQt5
 例：
 ```
 # config/classes.txt
-Goal
-Card
-Substitution
-Corner
-Offside
+PASS
+DRIVE
+HEADER
+HAIGH PASS
+...
 
-# config/second_classes.txt
-Home
-Away
+# config/second_classes.txt (about key player's own half)
+right
+left
 
-# config/third_classes.txt
-Left
-Center
-Right
+# config/third_classes.txt (about Location)
+Left center midfield
+...
+0 (OUT)
+Right center midfield
+...
 ```
 
 ## 使用方法
