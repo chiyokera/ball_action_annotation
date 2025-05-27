@@ -93,9 +93,9 @@ python main_window.py
 2. **アノテーションの作成**
    - アノテーションしたい位置で`Enter`キーを押す
    - 3つのラベルを順番に選択：
-     - 第1段階：アクション（例：Goal, Card）
-     - 第2段階：チーム（例：Home, Away）
-     - 第3段階：位置（例：Left, Center, Right）
+     - 第1段階：アクション
+     - 第2段階：チーム
+     - 第3段階：位置
 
 3. **アノテーションの保存**
    - 「保存」ボタンをクリック
@@ -128,15 +128,15 @@ python main_window.py
   "annotations": [
     {
       "position": 15000,
-      "action": "Goal",
-      "team": "Home",
-      "location": "Center"
+      "action": "PASS",
+      "team": "right",
+      "location": "Left center midfield"
     },
     {
       "position": 30000,
-      "action": "Card",
-      "team": "Away", 
-      "location": "Left"
+      "action": "DRIVE",
+      "team": "left", 
+      "location": "Left bottom midfield"
     }
   ]
 }
