@@ -153,6 +153,20 @@ class MainWindow(QMainWindow):
             self.media_player.media_player.setPosition(position)
             self.setFocus()
 
+        # Set the playback rate to x0.75
+        if event.key() == Qt.Key_F4 or event.key() == Qt.Key_Q:
+            position = self.media_player.media_player.position()
+            self.media_player.media_player.setPlaybackRate(0.75)
+            self.media_player.media_player.setPosition(position)
+            self.setFocus()
+
+        # Set the playback rate to x0.5
+        if event.key() == Qt.Key_F5 or event.key() == Qt.Key_W:
+            position = self.media_player.media_player.position()
+            self.media_player.media_player.setPlaybackRate(0.5)
+            self.media_player.media_player.setPosition(position)
+            self.setFocus()
+
         if event.key() == Qt.Key_Escape:
             self.list_display.list_widget.setCurrentRow(-1)
             self.setFocus()
